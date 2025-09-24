@@ -43,10 +43,5 @@ func main() {
 		return nil
 	})
 	log.Fatal(r.Listen("localhost:8080"))
-	//http.HandleFunc("/AreasPerimeters", func(w http.ResponseWriter, r *http.Request) { methods.DisplayAreasPerimeters(w) })
-	//err := http.ListenAndServe("localhost:8080", nil)
-	//if err != nil {
-	//	log.Fatal(err)
-	//}
 
 }
